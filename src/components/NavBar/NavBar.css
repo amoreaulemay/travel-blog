@@ -1,0 +1,35 @@
+/* Base class for NavBar */
+header {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    top: 0;
+    left: 0;
+    margin-bottom: 45px;
+}
+
+.NavBar--wrapper {
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    background-color: rgba(245, 90, 90, 1);
+    color: white;
+}
+
+.NavBar--wrapper > svg {
+    fill: white;
+}
+
+.NavBar--wrapper > h1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}

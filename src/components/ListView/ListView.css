@@ -1,0 +1,14 @@
+/* Base class for ListView */
+.ListView--wrapper {
+    --padding: 40px;
+    width: calc(100% - (2 * var(--padding)));
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    padding-bottom: 28px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: start;
+    gap: 36px;
+}

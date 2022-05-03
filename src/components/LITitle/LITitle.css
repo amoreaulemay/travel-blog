@@ -1,0 +1,11 @@
+/* Base class for LITitle */
+.LITitle--wrapper {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2b283a;
+    margin-block-start: 4px;
+    margin-block-end: 12px;
+}

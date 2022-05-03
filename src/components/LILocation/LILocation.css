@@ -1,0 +1,31 @@
+/* Base class for LILocation */
+.LILocation--wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.LILocation--wrapper > span {
+    margin-right: 12px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+}
+
+.LILocation--wrapper > a,
+.LILocation--wrapper > a:visited,
+.LILocation--wrapper > a:hover,
+.LILocation--wrapper > a:active {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918e9b;
+}

@@ -1,0 +1,5 @@
+/* Base class for LocationIcon */
+.LocationIcon--wrapper {
+    fill: #f55a5a;
+    margin-right: 4px;
+}

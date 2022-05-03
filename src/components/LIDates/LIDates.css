@@ -1,0 +1,11 @@
+/* Base class for LIDates */
+.LIDates--wrapper {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2b283a;
+    margin-block-start: 0px;
+    margin-block-end: 9px;
+}

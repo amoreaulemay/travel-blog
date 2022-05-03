@@ -1,0 +1,41 @@
+/* Base class for ListItem */
+.ListItem--wrapper {
+    --gap: 19px;
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ListItem--wrapper > div:first-child {
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.ListItem--wrapper > div:last-child {
+    flex-grow: 3;
+    flex-basis: 100%;
+}
+
+.ListItem--wrapper > div:first-child > img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 550px) {
+    .ListItem--wrapper > div:first-child {
+        flex-grow: 1;
+        flex-basis: calc(25% - var(--gap));
+    }
+
+    .ListItem--wrapper > div:last-child {
+        flex-grow: 3;
+        flex-basis: calc(75% - var(--gap));
+    }
+}
